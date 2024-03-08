@@ -1,0 +1,23 @@
+# Ignore all .txt files
+*.txt
+
+# Ignore all files in the 'logs' directory
+logs/
+
+# Ignore any file named 'debug.log' anywhere in the repository
+debug.log
+
+# Ignore all .tmp files except 'important.tmp'
+*.tmp
+!improtant.tmp
+
+# Ignore the entire 'build' directory
+build/
+
+# Ignore all files in the 'temp' dirctory and its subdirectories
+temp/*
+
+# Ignore all .log fiels except 'error.log'
+*.log
+!error.log
+
