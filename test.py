@@ -46,6 +46,23 @@ n
 print(4 * 3.75 - 1)
 # 14.0
 
+tax = 12.5 / 100
+price = 100.50
+print(price * tax)
+# 12.5625
+
+print(price + (price * tax))
+# 113.0625
+# >>> price + _
+print(round((price + price * tax), 2))
+# 113.06
+# >>> round(_ , 2)
+# >>> 인터렉티브 모드에서 실행방법
+
+
+
+
+
 
 
 
