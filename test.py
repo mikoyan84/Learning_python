@@ -136,8 +136,56 @@ s = 'supercalifragilisticexpialidocious'
 print(len(s)) # len()는 문자열의 길이를 돌려준다
 
 
+# 리스트 정리
+squares = [1, 4, 9, 16, 25]
+print(squares)
+print(squares[0])
+print(squares[-1])
+print(squares[-3:])
+
+# 이어 붙이기 가능
+squares = [1, 4, 9, 16, 25]
+print((squares) + [36, 49, 64, 81, 100])
+
+# 불변인 문자열과는 다르게, 리스트는 가변이므로 내용변경이 가능하다.
+cubes = [1, 8, 27, 65, 125]
+#print(4 ** 3) # 4의 3제곱
+cubes[3] = 64 # 리스트는 중간에 끼워넣기가 가능하다
+cubes.append(216)
+cubes.append(7 ** 3)
+print(cubes)
+
+# 111111
+rgb = ["Red", "Green", "Blue"]
+rgba = rgb
+id(rgb) == id(rgba)  # they reference the same object
+rgba.append("Alph")
+# print(rgb)
+correct_rgba = rgba[:]
+correct_rgba[-1] = "Alpha"
+print(correct_rgba)
+print(rgba)
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(letters)
+print(letters[2:5])
+
+letters[2:5] = []
+print(letters)
+
+letters[:] = []
+print(letters)
 
 
+letters = ['a', 'b', 'c', 'd']
+print(len(letters))
 
+a = ['a', 'b', 'c']
+n = [1, 2, 3]
+x = [a, n]
+print(x)
+
+print(x[0])
+print(x[0][1])
 
 
