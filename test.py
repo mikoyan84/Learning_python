@@ -189,3 +189,14 @@ print(x[0])
 print(x[0][1])
 
 
+
+
+
+# 피보나치 수열
+# the sum of two elements defines the next
+a, b = 0, 1
+while a < 10 : # 루프 조건
+    print(a)    
+    a, b = b, a+b
+
+
