@@ -63,6 +63,38 @@ print(round((price + price * tax), 2))
 
 
 
+print('spam eggs')
+print("Paris rabbit got your back :)! Yay!")
+print('1975')
+
+print('doesn\'t')
+print("doens't")
+print('"Yes," they said.')
+print("\"Yes,\" they said.")
+print('"Isn\'t," they said.')
 
 
 
+s = 'First line.\nSecond line.'
+s # without print(), special chracters are included in the string
+print(s) #with print(), special characters are interpreted, so \n produces new
+
+print('C:\some\name') # here \n means newline!
+print(r'C:\some\name') # note the r before the quote
+
+print("""\
+    Usage: thingy [OPTIONS]
+            -h                  Display this usage message
+            -H                  Hostname to connect to
+     """)
+
+# 3times 'un' , fllowed by 'ium'
+print(3 * 'un' + 'uim')
+print('Py' 'thon')
+
+
+
+# plus로 해줘야
+
+prefix = 'Py'
+print(prefix + 'thon')
